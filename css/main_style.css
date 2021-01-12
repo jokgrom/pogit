@@ -1,0 +1,311 @@
+*{
+	margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+	color:#0093e0;
+	text-decoration: none;
+}
+a:hover { 
+    text-decoration: underline; 
+    cursor: pointer;
+}
+body{
+ 	margin: 0;
+	padding: 0;
+	font-family:  Arial, Geneva, sans-serif;
+	font-size: 15px;
+	font-weight: 600;
+	color: rgb(112, 140, 145);
+	line-height: 1.7em; 
+	background-color: #fff;
+}
+input {outline:none;}
+button:hover {cursor: pointer;}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+ opacity: 1;
+}
+
+#page{
+	max-width:1200px; 
+	margin:0 auto; 
+	padding:10px;
+	min-height: 90vh;
+}
+.title_min{
+	font-size: 20px;
+	color:#f67;
+}
+.button{
+	padding: 15px;
+	margin-top: 30px;
+	border:none;
+	border-radius: 20px;
+	background-color: #4ec7f8;
+	color:#fff;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+
+#header{background-color: #fff;}
+.headerBar{
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	padding:20px 0;
+}
+.logo_site a{padding: 20px;}
+.hB_menu span{
+	padding:20px;
+}
+.hB_item__search:before{content:'';}
+.hB_item__offer:before{content:'';}
+
+
+
+.box_welcome{
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	position: relative;
+	margin-top: 30px;
+	height:450px;
+	border-radius: 7px;
+	background: url('/img/fon2.jpg');
+	background-size:cover;
+}
+.box_welcome .content{position:relative; z-index: 3; margin-top:30px; }
+.box_welcome:before{
+	content:''; 
+	position: absolute; 
+	width:100%; 
+	height: 100%;
+	border-radius: 7px;
+	background-color: #000; 
+	opacity: 0.2;
+	z-index: 2;
+}
+.box_welcome h1{color:#fff; text-transform:uppercase;}
+
+
+
+.box1{
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+	margin-top:40px;
+}
+.box1 .item1{width: 50%;}
+.box1 .item1 .img1{width:100%; border-radius: 2px;}
+.item2 .content{margin: 20px;}
+
+
+
+.box2{margin-top:60px;}
+.box2 .content{
+	display: flex;
+	justify-content: space-between;
+	margin-top:30px;
+}
+.box2 .content .item{width: 33%;}
+.box2 .content .item .wrappe{padding: 10px;}
+
+
+
+#footer{
+	margin-top:80px;
+	padding: 10px;
+	background-color: #f1f3f4;
+}
+#footer .wrappe{
+	display: flex;
+	justify-content: space-around;
+	padding: 20px 0;
+	min-height: 70px;
+}
+
+
+
+/*страница поиска*/
+.search{
+	display: flex;
+	justify-content: space-around;
+	margin-top:80px;
+}
+.box_search{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.box_search .title_min{text-align: center;}
+.form_search__address{
+	width:95%;
+	padding: 7px;
+	border: none;
+	border-radius: 7px;
+	line-height: 2em;
+	color:#000;
+	background-color: #f1f3f4;
+}
+.from_search__radius{
+	padding: 7px;
+	border: 1px solid #a9a9a9;
+	border-radius: 7px;
+	color:#000;
+	background-color: #f1f3f4;
+}
+.form_search__price{
+	width:80px;
+	padding: 5px;
+	border: none;
+	border-radius: 7px;
+	line-height: 2em;
+	text-align: center;
+	color:#000;
+	background-color: #f1f3f4;
+}
+.search__additional .item{
+	margin-right: 10px;
+	padding:7px; 
+    border-radius: 7px;
+    background-color: #f1f3f4;
+}
+.form_search__search{
+	text-align: center;
+	padding: 15px 43px;
+}
+
+.info_search{width: 40%;}
+
+
+.map{margin-top:80px;}
+
+
+
+
+
+
+
+
+
+/*страница добавления пункта*/
+.offer{
+	display: flex;
+	justify-content: space-around;
+	margin-top:80px;
+}
+.box_offer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.box_offer .title_min{text-align: center;}
+.form_offer__address, .form_offer__price{
+	width:95%;
+	padding: 7px;
+	border: none;
+	border-radius: 7px;
+	line-height: 2em;
+	color:#000;
+	background-color: #f1f3f4;
+}
+.offer__additional .item{
+	margin-right: 10px;
+	padding:7px; 
+    border-radius: 7px;
+    background-color: #f1f3f4;
+}
+.form_offer__offer{
+	text-align: center;
+	padding: 15px 43px;
+}
+
+.info_offer{width: 40%;}
+
+
+.form_offer__comment, .form_offer__contacts{
+	width: 95%;
+	height: 100px;
+    padding: 7px;
+	border: 1px solid #a9a9a9;
+    border-radius: 7px;
+    line-height: 2em;
+    color: #000;
+    background-color: #f1f3f4;
+}
+
+
+
+
+
+
+/*Страница авторизации*/
+.login_page{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.login_fon{
+    background:url('/img/fon3.jpg'); 
+	background-size: cover;
+}
+.box_login{
+	padding: 20px;
+	border-radius: 7px;
+	width: 400px;
+	background-color: #fff;
+	opacity: 0.95;
+}
+
+.login_phone, .login_password{
+	width: 95%;
+	padding: 7px;
+	border: 1px solid #a9a9a9;
+	border-radius: 7px;
+	color:#000;
+	background-color: #f1f3f4;
+}
+.login_button{
+	text-align: center;
+	padding: 15px 43px;
+}
+
+
+
+
+/*Страница регистрации*/
+.registration_page{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.registration_fon{
+    background:url('/img/fon3.jpg'); 
+	background-size: cover;
+}
+.box_registration{
+	padding: 20px;
+	border-radius: 7px;
+	width: 400px;
+	background-color: #fff;
+	opacity: 0.95;
+}
+.registration_phone, .registration_password{
+	width: 95%;
+	padding: 7px;
+	border: 1px solid #a9a9a9;
+	border-radius: 7px;
+	color:#000;
+	background-color: #f1f3f4;
+}
+
+.registration_button{
+	text-align: center;
+	padding: 15px 43px;
+}
+
+
