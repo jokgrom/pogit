@@ -47,7 +47,7 @@
 			</div>
 
 			<div class="box2">
-				<div class="title_min">Всё очень просто...</div>
+				<div class="title_min">Всё очень просто2...</div>
 				<div class="content">
 					<div class="item">
 						<div class="wrappe">
